@@ -5,24 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GDSC UII x UPN</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
-    <script>
-      tailwind.config = {
-        darkMode: 'class', // or 'media'
-        theme: {
-          display: ['group-hover'],
-          extend: {
-            fontFamily: {
-              sans: ['Outfit']
-            },
-            colors: ({ colors }) => ({
-              custom: colors.cyan
-            })
-          }
-        }
-      };
-    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -45,7 +28,7 @@
     </nav>
 
     <!-- Section 1 -->
-    <section class="mx-[70px]">
+    <section class="mx-[70px] -mt-12">
       <div class="grid grid-cols-2 items-center">
         <div>
           <div class="text-[49px] font-bold">
@@ -154,8 +137,8 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="mt-12 mx-[70px]">
-      <h1 class="text-[39px] font-bold text-center mb-7">Upcoming Events</h1>
+    <section class="mt-12 mx-[70px] text-center">
+      <h1 class="text-[39px] font-bold mb-7">Upcoming Events</h1>
       <div class="flex overflow-x-auto space-x-5">
         <div
           class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
@@ -240,12 +223,76 @@
           </div>
         </div>
       </div>
+      <button
+        class="bg-blue-500 text-white px-7 py-2 rounded-lg font-semibold mt-5"
+      >
+        Join Us
+      </button>
     </section>
 
     <!-- Section 3 -->
-    <div>Sec 3</div>
+    <section class="flex space-x-3 items-center bg-blue-500 mt-12 px-[50px]">
+      <div class="w-1/2 flex place-content-center">
+        <img src="assets/images/banner_2.png" />
+      </div>
+      <div class="space-y-5 py-[25px] w-1/2">
+        <h1 class="text-[39px] text-white font-bold">
+          Our Community Guidelines
+        </h1>
+        <p class="text-white">
+          Google is dedicated to providing a harassment-free and inclusive event
+          experience for everyone regardless of gender identity and expression,
+          sexual orientation, disabilities, neurodiversity, physical appearance,
+          size, ethnicity, nationality, race, age, religion, or other protected
+          category.
+        </p>
+        <button class="text-blue-500 bg-white px-7 py-2 text-lg rounded-lg">
+          Read the Guidline
+        </button>
+      </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="flex flex-col items-center px-[128px] mt-12">
+      <h1 class="text-xl text-gray-500">
+        “Showing more representation in tech with GDSC UII greatly increases our
+        confidence, innovation, and performance. Especially in academic
+        environments, having a sense of belonging and community for students can
+        lead to success in tech together.”
+      </h1>
+      <div class="flex space-x-5 my-7 place-items-center justify-between">
+        <div class="col-span-1">
+          <img src="assets/images/person.png" />
+        </div>
+        <div class="text-gray-500 col-span-3">
+          <h1 class="font-semibold">Annisa Fikri</h1>
+          <p>GDSC Team Member</p>
+        </div>
+      </div>
+      <img src="assets/images/banner_3.png" />
+      <h1 class="text-[39px] font-semibold my-5">
+        Together we connect, learn, and grow as GDSC Student
+      </h1>
+      <button
+        class="bg-blue-500 text-white px-12 py-2 rounded-lg font-semibold"
+      >
+        Join Us
+      </button>
+    </section>
 
     <!-- Footer -->
-    <footer>Footer</footer>
+    <footer class="flex justify-between bg-blue-500 px-[64px] py-[48.5px] mt-12">
+      <div class="flex space-x-[13px]">
+        <img src="assets/images/gdsc_logo.png" />
+        <div class="text-white">
+          <h1 class="text-lg font-semibold">Google Developer Student Club</h1>
+          <p class="text-sm">Universitas Islam Indonesia x UPN-V Yogyakarta</p>
+        </div>
+      </div>
+      <div class="flex space-x-[29px] items-center text-white">
+        <a>About Us</a>
+        <a>Upcoming Events</a>
+        <a>Community Guidelines</a>
+      </div>
+    </footer>
   </body>
 </html>
