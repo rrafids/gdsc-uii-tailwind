@@ -5,7 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GDSC UII x UPN</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // or 'media'
+        theme: {
+          display: ['group-hover'],
+          extend: {
+            fontFamily: {
+              sans: ['Outfit']
+            },
+            colors: ({ colors }) => ({
+              custom: colors.cyan
+            })
+          }
+        }
+      };
+    </script>
   </head>
   <body>
     <!-- Navbar -->
