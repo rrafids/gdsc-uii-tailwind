@@ -9,127 +9,103 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="flex justify-between bg-blue-500 px-[64px] py-[24.5px]">
+    <nav
+      class="flex justify-between bg-gradient-to-r from-[#4285F4] to-[#359CD7] px-[64px] py-[24.5px]"
+    >
       <div class="flex space-x-[13px]">
         <img src="assets/images/gdsc_logo.png" />
         <div class="text-white">
           <h1 class="text-lg font-semibold">Google Developer Student Club</h1>
-          <p class="text-sm">Universitas Islam Indonesia x UPN-V Yogyakarta</p>
+          <p class="text-sm">GDSC UII x UPNVY</p>
         </div>
       </div>
-      <div class="flex space-x-[29px] items-center text-white">
+      <div class="flex space-x-[29px] items-center text-white text-[16px]">
         <a>About Us</a>
         <a>Upcoming Events</a>
         <a>Community Guidelines</a>
-        <button class="bg-yellow-500 px-3 py-2 rounded-lg font-semibold">
+        <button
+          class="bg-[#F9B31A] hover:bg-[#E3A318] active:bg-[#89620E] px-[32.5px] py-[10px] rounded-[10px] font-semibold"
+        >
           Join Us
         </button>
       </div>
     </nav>
 
     <!-- Section 1 -->
-    <section class="mx-[70px] -mt-12">
-      <div class="grid grid-cols-2 items-center">
-        <div>
-          <div class="text-[49px] font-bold">
+    <section class="mx-[98px] mt-[53px]">
+      <div class="flex items-center justify-between space-x-[72px]">
+        <div class="w-1/2 space-y-5">
+          <div class="text-[49px] font-bold text-[#3C79DE]">
             <h1>Google Developer</h1>
             <h1>Student Clubs</h1>
           </div>
-          <h2 class="text-[31px] text-[#1D242D]">
-            Universitas Islam Indonesia x UPN-V Yogyakarta
-          </h2>
-          <p class="text-[#546881] mt-[20px]">
-            GDSC UII are university based community groups for students
-            interested in Google developer technologies. Students from all
-            undergraduate or graduate programs with an interest in growing as a
-            developer are welcome. By joining a GDSC UII, students grow their
-            knowledge in a peer-to-peer learning environment and build solutions
-            for local businesses and their community.
+          <p class="text-[18px]">
+            GDSC are university based community groups for students interested
+            in Google developer technologies. Students from all undergraduate or
+            graduate programs with an interest in growing as a developer are
+            welcome.
+          </p>
+          <p class="text-[18px]">
+            By joining a GDSC, students grow their knowledge in a peer-to-peer
+            learning environment and build solutions for local businesses and
+            their community.
           </p>
           <button
-            class="bg-yellow-500 px-12 py-3 font-semibold text-white rounded-lg text-lg mt-5"
+            class="bg-[#F9B31A] hover:bg-[#E3A318] active:bg-[#89620E] px-[43.5px] py-[10px] font-semibold text-white rounded-lg text-[25px] mt-[26px]"
           >
             Join Us
           </button>
         </div>
-        <div class="-mr-[70px]">
-          <img src="assets/images/banner.png" />
+        <div class="w-1/2">
+          <img class="w-full" src="assets/images/banner.png" />
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-[33px]">
-        <div class="shadow-xl rounded-lg">
-          <div
-            class="text-white bg-green-500 rounded-t-lg p-5 flex place-content-center"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-10 h-10"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-          <div class="p-[24px] space-y-3">
-            <h1 class="text-[25px] font-bold text-green-500">Connect</h1>
-            <p class="text-gray-600">
+      <div class="grid grid-cols-3 gap-[33px] mt-[53px]">
+        <div
+          class="shadow-xl rounded-lg flex flex-col items-center hover:bg-[#4285F4] hover:text-white p-[24px] space-y-5 text-center"
+        >
+          <img
+            src="assets/images/connect_banner.png"
+            class="w-[187px] h-[125px]"
+          />
+          <div class="space-y-3">
+            <h1 class="text-[25px] font-bold">Connect</h1>
+            <p>
               Meet students interested in developer technologies at your college
               or university. All are welcome, including those with diverse
               backgrounds and different majors.
             </p>
           </div>
         </div>
-        <div class="shadow-xl rounded-lg">
-          <div
-            class="text-white bg-blue-500 rounded-t-lg p-5 flex place-content-center"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-10 h-10"
-            >
-              <path
-                d="M10.75 16.82A7.462 7.462 0 0115 15.5c.71 0 1.396.098 2.046.282A.75.75 0 0018 15.06v-11a.75.75 0 00-.546-.721A9.006 9.006 0 0015 3a8.963 8.963 0 00-4.25 1.065V16.82zM9.25 4.065A8.963 8.963 0 005 3c-.85 0-1.673.118-2.454.339A.75.75 0 002 4.06v11a.75.75 0 00.954.721A7.506 7.506 0 015 15.5c1.579 0 3.042.487 4.25 1.32V4.065z"
-              />
-            </svg>
-          </div>
-          <div class="p-[24px] space-y-3">
-            <h1 class="text-[25px] font-bold text-blue-500">Learn</h1>
-            <p class="text-gray-600">
-              Meet students interested in developer technologies at your college
-              or university. All are welcome, including those with diverse
-              backgrounds and different majors.
+        <div
+          class="shadow-xl rounded-lg flex flex-col items-center hover:bg-[#4285F4] hover:text-white p-[24px] space-y-5 text-center"
+        >
+          <img
+            src="assets/images/learn_banner.png"
+            class="w-[187px] h-[125px]"
+          />
+          <div class="space-y-3">
+            <h1 class="text-[25px] font-bold">Learn</h1>
+            <p>
+              Learn about a range of technical topics and gain new skills
+              through hands-on workshops, events, talks, and project-building
+              activities online and in-person.
             </p>
           </div>
         </div>
-        <div class="shadow-xl rounded-lg">
-          <div
-            class="text-white bg-yellow-500 rounded-t-lg p-5 flex place-content-center"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-10 h-10"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.23 15.79a.75.75 0 01-.02-1.06l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 11-1.08 1.04L10 11.832 6.29 15.77a.75.75 0 01-1.06.02zm0-6a.75.75 0 01-.02-1.06l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 11-1.08 1.04L10 5.832 6.29 9.77a.75.75 0 01-1.06.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-          <div class="p-[24px] space-y-3">
-            <h1 class="text-[25px] font-bold text-yellow-500">Grow</h1>
-            <p class="text-gray-600">
-              Meet students interested in developer technologies at your college
-              or university. All are welcome, including those with diverse
-              backgrounds and different majors.
+        <div
+          class="shadow-xl rounded-lg flex flex-col items-center hover:bg-[#4285F4] hover:text-white p-[24px] space-y-5 text-center"
+        >
+          <img
+            src="assets/images/grow_banner.png"
+            class="w-[187px] h-[125px]"
+          />
+          <div class="space-y-3">
+            <h1 class="text-[25px] font-bold">Grow</h1>
+            <p>
+              Apply new learnings to build great solutions for local problems.
+              Advance your skills, career, and network. Give back to your
+              community by helping others learn.
             </p>
           </div>
         </div>
@@ -137,101 +113,225 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="mt-12 mx-[70px] text-center">
+    <section class="mt-12 ml-[98px] text-center">
       <h1 class="text-[39px] font-bold mb-7">Upcoming Events</h1>
-      <div class="flex overflow-x-auto space-x-5">
+      <div class="flex overflow-x-auto space-x-5 text-left">
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
+            class="w-full h-[200px] rounded-lg"
             src="assets/images/mobile_banner.png"
           />
-          <h1 class="text-[20px] font-bold">Make an App with Flutter!</h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">Make an App with Flutter!</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
-            src="assets/images/mobile_banner.png"
+            class="w-full h-[200px] rounded-lg"
+            src="assets/images/ai_banner.png"
           />
-          <h1 class="text-[20px] font-bold">AI for Better Future?</h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">AI for Better Future?</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
-            src="assets/images/mobile_banner.png"
+            class="w-full h-[200px] rounded-lg"
+            src="assets/images/uiux_banner.png"
           />
-          <h1 class="text-[20px] font-bold">Introduction to UI/UX</h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">Introduction to UI/UX</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
-            src="assets/images/mobile_banner.png"
+            class="w-full h-[200px] rounded-lg"
+            src="assets/images/cleancode_banner.png"
           />
-          <h1 class="text-[20px] font-bold">Clean Code</h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">Clean Code</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
-            src="assets/images/mobile_banner.png"
+            class="w-full h-[200px] rounded-lg"
+            src="assets/images/tensorflow_banner.png"
           />
-          <h1 class="text-[20px] font-bold">
-            Tailwind CSS better than Bootstrap?
-          </h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">Intro to Tensorflow</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
         <div
-          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100 space-y-3"
+          class="w-[300px] shadow-lg flex-shrink-0 p-5 border-2 rounded-lg border-gray-100"
         >
           <img
-            class="w-full rounded-lg"
-            src="assets/images/mobile_banner.png"
+            class="w-full h-[200px] rounded-lg"
+            src="assets/images/ucdiagram_banner.png"
           />
-          <h1 class="text-[20px] font-bold">
-            Tailwind CSS better than Bootstrap?
-          </h1>
-          <div class="grid grid-cols-2 justify-between text-sm text-gray-500">
-            <p>20 Februari 20023</p>
-            <p>Sleman, Yogyakarta</p>
+          <h1 class="text-[20px] font-bold mt-3">Usecase Diagram</h1>
+          <div
+            class="flex justify-between text-sm text-gray-500 mt-3 mb-[77px]"
+          >
+            <p>Februari 20, 2023</p>
+            <p>Sleman, Indonesia</p>
+          </div>
+          <div
+            class="flex text-[#3C79DE] font-semibold items-center space-x-[16px]"
+          >
+            <h1 class="text-[16px]">Learn More</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-[16px] h-[16px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </div>
         </div>
       </div>
       <button
-        class="bg-blue-500 text-white px-7 py-2 rounded-lg font-semibold mt-5"
+        class="bg-[#4285F4] hover:bg-[#3C79DE] active:bg-[#244986] text-white px-[41.5px] py-[11.5px] rounded-lg font-semibold mt-[50px] text-[20px]"
       >
-        Join Us
+        Find More
       </button>
     </section>
 
     <!-- Section 3 -->
-    <section class="flex space-x-3 items-center bg-blue-500 mt-12 px-[50px]">
+    <section
+      class="flex space-x-3 items-center bg-gradient-to-r from-[#4285F4] to-[#359CD7] mt-12 px-[50px]"
+    >
       <div class="w-1/2 flex place-content-center">
         <img src="assets/images/banner_2.png" />
       </div>
@@ -246,14 +346,17 @@
           size, ethnicity, nationality, race, age, religion, or other protected
           category.
         </p>
-        <button class="text-blue-500 bg-white px-7 py-2 text-lg rounded-lg">
+        <button
+          class="bg-[#F9B31A] hover:bg-[#E3A318] active:bg-[#89620E] text-white px-7 py-2 text-lg rounded-lg"
+        >
           Read the Guidline
         </button>
       </div>
     </section>
+
     <!-- Section 4 -->
     <section class="flex flex-col items-center px-[128px] mt-12">
-      <h1 class="text-xl text-gray-500">
+      <h1 class="text-[25px] text-gray-500 text-center">
         “Showing more representation in tech with GDSC UII greatly increases our
         confidence, innovation, and performance. Especially in academic
         environments, having a sense of belonging and community for students can
@@ -264,23 +367,28 @@
           <img src="assets/images/person.png" />
         </div>
         <div class="text-gray-500 col-span-3">
-          <h1 class="font-semibold">Annisa Fikri</h1>
+          <h1 class="font-bold">Annisa Fikri Qurota'yun</h1>
           <p>GDSC Team Member</p>
         </div>
       </div>
       <img src="assets/images/banner_3.png" />
-      <h1 class="text-[39px] font-semibold my-5">
-        Together we connect, learn, and grow as GDSC Student
-      </h1>
+      <div class="text-[39px] font-semibold text-center mt-3">
+        <h1 class="text-[#689DF6]">
+          Together we connect, learn, and grow as part of
+        </h1>
+        <h1 class="text-[#3C79DE]">Google Developer Student Clubs</h1>
+      </div>
       <button
-        class="bg-blue-500 text-white px-12 py-2 rounded-lg font-semibold"
+        class="bg-[#F9B31A] hover:bg-[#E3A318] active:bg-[#89620E] text-white py-[10px] px-[77px] py-2 rounded-lg font-semibold text-[25px] mt-5"
       >
         Join Us
       </button>
     </section>
 
     <!-- Footer -->
-    <footer class="flex justify-between bg-blue-500 px-[64px] py-[48.5px] mt-12">
+    <footer
+      class="flex justify-between bg-blue-500 px-[64px] py-[48.5px] mt-12"
+    >
       <div class="flex space-x-[13px]">
         <img src="assets/images/gdsc_logo.png" />
         <div class="text-white">
